@@ -1,6 +1,6 @@
 # BrainBridge
 
-![Логотип приложения](ссылка_на_логотип.png)
+![logo1](https://github.com/user-attachments/assets/80798bc6-5498-48b4-a527-cd1fa49ac47c)
 
 **BrainBridge** — Универсальная платформа для дистанционного и очного обучения, которая упрощает взаимодействие между всеми участниками образовательного процесса и делает его более доступным, удобным и эффективным.
 
@@ -19,9 +19,11 @@
 
 ## Скриншоты
 
-![Скриншот 1] ![image](https://github.com/user-attachments/assets/335f2ba5-a63f-4d1f-b886-3acc8e89aaf8)
-![Скриншот 2]![image](https://github.com/user-attachments/assets/7a926f44-e798-42ba-b4c6-f0c1d1bfd771)
-![Скриншот 3]![image](https://github.com/user-attachments/assets/85391a9c-d9a8-4304-b07c-70de9d1c39df)
+![image](https://github.com/user-attachments/assets/335f2ba5-a63f-4d1f-b886-3acc8e89aaf8)
+
+![image](https://github.com/user-attachments/assets/7a926f44-e798-42ba-b4c6-f0c1d1bfd771)
+
+![image](https://github.com/user-attachments/assets/85391a9c-d9a8-4304-b07c-70de9d1c39df)
 
 ## Технологии
 
