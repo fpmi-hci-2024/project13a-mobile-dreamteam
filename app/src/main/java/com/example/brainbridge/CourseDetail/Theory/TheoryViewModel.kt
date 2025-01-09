@@ -83,11 +83,15 @@ class TheoryViewModel(application: Application) : AndroidViewModel(application) 
 
     private fun openNextTest(chapterId: String) {
         repository.getTestsForChapter(chapterId) { tests ->
-            if (tests.isNotEmpty()) {
-                val lastTest = tests.last()
+            val currentCourseId = theories[currentPosition].course_id
+            val relevantTest = tests.find { test ->
+                test.chapter_id == chapterId && test.course_id == currentCourseId
+            }
+
+            if (relevantTest != null) {
                 val intent = Intent(getApplication(), TestActivity::class.java)
-                intent.putExtra("testId", lastTest.id)
-                intent.putExtra("courseId", theories[currentPosition].course_id)
+                intent.putExtra("testId", relevantTest.id)
+                intent.putExtra("courseId", currentCourseId) // Передаем courseId
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 getApplication<Application>().startActivity(intent)
             } else {

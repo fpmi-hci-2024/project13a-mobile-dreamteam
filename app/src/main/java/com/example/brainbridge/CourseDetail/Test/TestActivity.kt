@@ -15,12 +15,11 @@ class TestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTestBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         val courseId = intent.getStringExtra("courseId") ?: run {
             finish()
             return
         }
-
+        Log.e("test",courseId)
         controller = TestController(this, binding, this, courseId)
         controller.initialize()
     }
