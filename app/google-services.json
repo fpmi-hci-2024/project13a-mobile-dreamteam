@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "125162799140",
+    "firebase_url": "https://brainbridge2025-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "brainbridge2025",
+    "storage_bucket": "brainbridge2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125162799140:android:018495d735ea32d49718b1",
+        "android_client_info": {
+          "package_name": "com.example.brainbridge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhg3kIhQbuzaiPAnq5xWLMQYEVX007kJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
