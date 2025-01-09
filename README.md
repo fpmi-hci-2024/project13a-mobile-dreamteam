@@ -31,4 +31,4 @@
 - **База данных**: [Firebase]
 - **Архитектура**: [MVC]
 
-© Powered by DreamTeam .
+© Powered by DreamTeam
